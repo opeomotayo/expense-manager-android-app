@@ -17,7 +17,7 @@ jobs:
 
       - name: Run lint
         run: ./gradlew lintDebug
-        continue-on-error: false
+        continue-on-error: true
 
       - name: Upload html test report
         uses: actions/upload-artifact@v2
