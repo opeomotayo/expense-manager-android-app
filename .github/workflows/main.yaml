@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: lint.html
-          path: app/build/reports/lint-results.html #*.html
+          path: app/build/reports/lint-results.html #*.html /lint-results-debug.html
 
   unit-test:
     needs: [lint]
@@ -50,10 +50,10 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: unit_test_report
-          path: app/build/reports/tests/unit-test-results/
+          path: app/build/reports/tests/testDebugUnitTest/
 
       - name: Debug
-        run: ls -la app/build/reports/tests/unit-test-results/
+        run: ls -la app/build/reports/tests/testDebugUnitTest/
         
 
 
