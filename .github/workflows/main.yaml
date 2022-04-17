@@ -40,4 +40,7 @@ jobs:
         run:  ls -la app/build/reports/
 
       - name: Debug2
-        run:  cat app/build/reports/lint-result.html
+        run:  cat app/build/reports/lint-results.html
+
+      - name: Debug3
+        run:  cat app/build/reports/lint-results.xml
