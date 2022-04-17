@@ -30,7 +30,7 @@ jobs:
         run:  ./gradlew lint #./gradlew lintDebug --stacktrace
         continue-on-error: true
 
-      - name: Upload lint test report
+      - name: Upload test report
         uses: actions/upload-artifact@v3
         with:
           name: lint.html
@@ -46,7 +46,7 @@ jobs:
       - name: Run tests
         run: ./gradlew test #bash ./gradlew test --stacktrace 
 
-      - name: Upload unit test report
+      - name: Upload test report
         uses: actions/upload-artifact@v3
         with:
           name: unit_test_report
