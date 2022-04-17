@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.activity;
+package opeomotayo.com.expensemanager.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,12 +11,12 @@ import androidx.fragment.app.Fragment;
 
 import java.util.List;
 
-import ajitsingh.com.expensemanager.R;
-import ajitsingh.com.expensemanager.adapter.TodaysExpenseListViewAdapter;
-import ajitsingh.com.expensemanager.database.ExpenseDatabaseHelper;
-import ajitsingh.com.expensemanager.model.Expense;
-import ajitsingh.com.expensemanager.presenter.TodaysExpensePresenter;
-import ajitsingh.com.expensemanager.view.TodaysExpenseView;
+import opeomotayo.com.expensemanager.R;
+import opeomotayo.com.expensemanager.adapter.TodaysExpenseListViewAdapter;
+import opeomotayo.com.expensemanager.database.ExpenseDatabaseHelper;
+import opeomotayo.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.presenter.TodaysExpensePresenter;
+import opeomotayo.com.expensemanager.view.TodaysExpenseView;
 
 public class TodaysExpenseFragment extends Fragment implements TodaysExpenseView {
 

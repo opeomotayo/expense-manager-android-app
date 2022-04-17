@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.activity;
+package opeomotayo.com.expensemanager.activity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,12 +7,12 @@ import android.widget.Toast;
 
 import androidx.fragment.app.FragmentActivity;
 
-import ajitsingh.com.expensemanager.R;
-import ajitsingh.com.expensemanager.database.ExpenseDatabaseHelper;
-import ajitsingh.com.expensemanager.presenter.CategoryPresenter;
-import ajitsingh.com.expensemanager.view.AddCategoryView;
+import opeomotayo.com.expensemanager.R;
+import opeomotayo.com.expensemanager.database.ExpenseDatabaseHelper;
+import opeomotayo.com.expensemanager.presenter.CategoryPresenter;
+import opeomotayo.com.expensemanager.view.AddCategoryView;
 
-import static ajitsingh.com.expensemanager.activity.MainActivity.ADD_NEW_CAT;
+import static opeomotayo.com.expensemanager.activity.MainActivity.ADD_NEW_CAT;
 
 
 public class AddCategoryActivity extends FragmentActivity implements AddCategoryView {

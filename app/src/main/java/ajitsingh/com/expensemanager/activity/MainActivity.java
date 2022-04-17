@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.activity;
+package opeomotayo.com.expensemanager.activity;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
@@ -20,12 +20,12 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager.widget.ViewPager;
 
-import ajitsingh.com.expensemanager.R;
-import ajitsingh.com.expensemanager.adapter.DrawerListViewAdapter;
-import ajitsingh.com.expensemanager.adapter.HomeViewPagerAdapter;
-import ajitsingh.com.expensemanager.notification.FillExpenseNotificationScheduler;
-import ajitsingh.com.expensemanager.presenter.NavigationDrawerPresenter;
-import ajitsingh.com.expensemanager.view.NavigationDrawerItemView;
+import opeomotayo.com.expensemanager.R;
+import opeomotayo.com.expensemanager.adapter.DrawerListViewAdapter;
+import opeomotayo.com.expensemanager.adapter.HomeViewPagerAdapter;
+import opeomotayo.com.expensemanager.notification.FillExpenseNotificationScheduler;
+import opeomotayo.com.expensemanager.presenter.NavigationDrawerPresenter;
+import opeomotayo.com.expensemanager.view.NavigationDrawerItemView;
 
 
 public class MainActivity extends FragmentActivity implements NavigationDrawerItemView, ActionBar.TabListener {

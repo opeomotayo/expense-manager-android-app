@@ -1,8 +1,8 @@
-package ajitsingh.com.expensemanager.view;
+package opeomotayo.com.expensemanager.view;
 
 import java.util.List;
 
-import ajitsingh.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.model.Expense;
 
 public interface TodaysExpenseView {
   void displayTotalExpense(Long totalExpense);

@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.table;
+package opeomotayo.com.expensemanager.table;
 
 import android.provider.BaseColumns;
 

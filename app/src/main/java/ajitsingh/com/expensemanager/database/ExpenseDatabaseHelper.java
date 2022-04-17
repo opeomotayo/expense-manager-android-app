@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.database;
+package opeomotayo.com.expensemanager.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,14 +9,14 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 import java.util.List;
 
-import ajitsingh.com.expensemanager.model.Expense;
-import ajitsingh.com.expensemanager.model.ExpenseType;
-import ajitsingh.com.expensemanager.table.ExpenseTable;
-import ajitsingh.com.expensemanager.table.ExpenseTypeTable;
-import ajitsingh.com.expensemanager.utils.DateUtil;
+import opeomotayo.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.model.ExpenseType;
+import opeomotayo.com.expensemanager.table.ExpenseTable;
+import opeomotayo.com.expensemanager.table.ExpenseTypeTable;
+import opeomotayo.com.expensemanager.utils.DateUtil;
 
-import static ajitsingh.com.expensemanager.utils.DateUtil.getCurrentDate;
-import static ajitsingh.com.expensemanager.utils.DateUtil.getCurrentWeeksDates;
+import static opeomotayo.com.expensemanager.utils.DateUtil.getCurrentDate;
+import static opeomotayo.com.expensemanager.utils.DateUtil.getCurrentWeeksDates;
 import static java.lang.Integer.parseInt;
 import static java.lang.Long.parseLong;
 

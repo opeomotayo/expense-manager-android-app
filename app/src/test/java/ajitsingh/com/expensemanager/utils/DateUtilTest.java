@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.utils;
+package opeomotayo.com.expensemanager.utils;
 
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeConstants;

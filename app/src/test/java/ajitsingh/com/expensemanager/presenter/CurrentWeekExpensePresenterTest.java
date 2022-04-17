@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.presenter;
+package opeomotayo.com.expensemanager.presenter;
 
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeUtils;
@@ -10,9 +10,9 @@ import org.mockito.ArgumentCaptor;
 import java.util.List;
 import java.util.Map;
 
-import ajitsingh.com.expensemanager.database.ExpenseDatabaseHelper;
-import ajitsingh.com.expensemanager.model.Expense;
-import ajitsingh.com.expensemanager.view.CurrentWeekExpenseView;
+import opeomotayo.com.expensemanager.database.ExpenseDatabaseHelper;
+import opeomotayo.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.view.CurrentWeekExpenseView;
 
 import static java.util.Arrays.asList;
 import static org.hamcrest.CoreMatchers.is;

@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.activity;
+package opeomotayo.com.expensemanager.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,12 +12,12 @@ import androidx.fragment.app.Fragment;
 import java.util.List;
 import java.util.Map;
 
-import ajitsingh.com.expensemanager.R;
-import ajitsingh.com.expensemanager.adapter.CurrentWeeksExpenseAdapter;
-import ajitsingh.com.expensemanager.database.ExpenseDatabaseHelper;
-import ajitsingh.com.expensemanager.model.Expense;
-import ajitsingh.com.expensemanager.presenter.CurrentWeekExpensePresenter;
-import ajitsingh.com.expensemanager.view.CurrentWeekExpenseView;
+import opeomotayo.com.expensemanager.R;
+import opeomotayo.com.expensemanager.adapter.CurrentWeeksExpenseAdapter;
+import opeomotayo.com.expensemanager.database.ExpenseDatabaseHelper;
+import opeomotayo.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.presenter.CurrentWeekExpensePresenter;
+import opeomotayo.com.expensemanager.view.CurrentWeekExpenseView;
 
 public class CurrentWeekExpenseFragment extends Fragment implements CurrentWeekExpenseView {
 

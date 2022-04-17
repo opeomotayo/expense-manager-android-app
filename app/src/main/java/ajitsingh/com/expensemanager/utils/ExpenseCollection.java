@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.utils;
+package opeomotayo.com.expensemanager.utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import ajitsingh.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.model.Expense;
 
 public class ExpenseCollection {
   private List<Expense> expenses;

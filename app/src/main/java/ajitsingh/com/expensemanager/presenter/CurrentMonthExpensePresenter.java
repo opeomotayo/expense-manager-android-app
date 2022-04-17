@@ -1,14 +1,14 @@
-package ajitsingh.com.expensemanager.presenter;
+package opeomotayo.com.expensemanager.presenter;
 
 import com.echo.holographlibrary.Bar;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ajitsingh.com.expensemanager.database.ExpenseDatabaseHelper;
-import ajitsingh.com.expensemanager.model.Expense;
-import ajitsingh.com.expensemanager.utils.ExpenseCollection;
-import ajitsingh.com.expensemanager.view.CurrentMonthExpenseView;
+import opeomotayo.com.expensemanager.database.ExpenseDatabaseHelper;
+import opeomotayo.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.utils.ExpenseCollection;
+import opeomotayo.com.expensemanager.view.CurrentMonthExpenseView;
 
 
 public class CurrentMonthExpensePresenter {

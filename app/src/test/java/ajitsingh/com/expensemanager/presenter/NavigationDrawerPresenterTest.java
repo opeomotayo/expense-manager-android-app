@@ -1,16 +1,16 @@
-package ajitsingh.com.expensemanager.presenter;
+package opeomotayo.com.expensemanager.presenter;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 
-import ajitsingh.com.expensemanager.activity.CurrentMonthExpenseFragment;
-import ajitsingh.com.expensemanager.activity.CurrentWeekExpenseFragment;
-import ajitsingh.com.expensemanager.view.NavigationDrawerItemView;
+import opeomotayo.com.expensemanager.activity.CurrentMonthExpenseFragment;
+import opeomotayo.com.expensemanager.activity.CurrentWeekExpenseFragment;
+import opeomotayo.com.expensemanager.view.NavigationDrawerItemView;
 
-import static ajitsingh.com.expensemanager.presenter.NavigationDrawerPresenter.HOME;
-import static ajitsingh.com.expensemanager.presenter.NavigationDrawerPresenter.THIS_MONTH;
-import static ajitsingh.com.expensemanager.presenter.NavigationDrawerPresenter.THIS_WEEK;
+import static opeomotayo.com.expensemanager.presenter.NavigationDrawerPresenter.HOME;
+import static opeomotayo.com.expensemanager.presenter.NavigationDrawerPresenter.THIS_MONTH;
+import static opeomotayo.com.expensemanager.presenter.NavigationDrawerPresenter.THIS_WEEK;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;

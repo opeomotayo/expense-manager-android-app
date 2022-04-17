@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.activity;
+package opeomotayo.com.expensemanager.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,10 +14,10 @@ import com.echo.holographlibrary.BarGraph;
 import java.util.ArrayList;
 import java.util.List;
 
-import ajitsingh.com.expensemanager.R;
-import ajitsingh.com.expensemanager.database.ExpenseDatabaseHelper;
-import ajitsingh.com.expensemanager.presenter.CurrentMonthExpensePresenter;
-import ajitsingh.com.expensemanager.view.CurrentMonthExpenseView;
+import opeomotayo.com.expensemanager.R;
+import opeomotayo.com.expensemanager.database.ExpenseDatabaseHelper;
+import opeomotayo.com.expensemanager.presenter.CurrentMonthExpensePresenter;
+import opeomotayo.com.expensemanager.view.CurrentMonthExpenseView;
 
 public class CurrentMonthExpenseFragment extends Fragment implements CurrentMonthExpenseView {
 

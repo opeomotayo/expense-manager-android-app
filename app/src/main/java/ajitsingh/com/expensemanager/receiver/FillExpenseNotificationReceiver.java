@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.receiver;
+package opeomotayo.com.expensemanager.receiver;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -10,8 +10,8 @@ import android.content.Intent;
 
 import androidx.core.app.NotificationCompat;
 
-import ajitsingh.com.expensemanager.R;
-import ajitsingh.com.expensemanager.activity.MainActivity;
+import opeomotayo.com.expensemanager.R;
+import opeomotayo.com.expensemanager.activity.MainActivity;
 
 public class FillExpenseNotificationReceiver extends BroadcastReceiver {
   @Override

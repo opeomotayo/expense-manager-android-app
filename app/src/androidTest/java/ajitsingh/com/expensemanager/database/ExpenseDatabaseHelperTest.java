@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.database;
+package opeomotayo.com.expensemanager.database;
 
 import android.content.Context;
 
@@ -15,10 +15,10 @@ import org.junit.runner.RunWith;
 import java.util.ArrayList;
 import java.util.List;
 
-import ajitsingh.com.expensemanager.model.Expense;
-import ajitsingh.com.expensemanager.model.ExpenseType;
-import ajitsingh.com.expensemanager.table.ExpenseTable;
-import ajitsingh.com.expensemanager.table.ExpenseTypeTable;
+import opeomotayo.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.model.ExpenseType;
+import opeomotayo.com.expensemanager.table.ExpenseTable;
+import opeomotayo.com.expensemanager.table.ExpenseTypeTable;
 
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsCollectionContaining.hasItems;

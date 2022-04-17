@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.adapter;
+package opeomotayo.com.expensemanager.adapter;
 
 import android.view.View;
 
@@ -6,8 +6,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import ajitsingh.com.expensemanager.activity.ExpenseFragment;
-import ajitsingh.com.expensemanager.activity.TodaysExpenseFragment;
+import opeomotayo.com.expensemanager.activity.ExpenseFragment;
+import opeomotayo.com.expensemanager.activity.TodaysExpenseFragment;
 
 public class HomeViewPagerAdapter extends FragmentStatePagerAdapter {
   public HomeViewPagerAdapter(FragmentManager supportFragmentManager) {

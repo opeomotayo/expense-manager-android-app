@@ -1,11 +1,11 @@
-package ajitsingh.com.expensemanager.table;
+package opeomotayo.com.expensemanager.table;
 
 import android.provider.BaseColumns;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ajitsingh.com.expensemanager.model.ExpenseType;
+import opeomotayo.com.expensemanager.model.ExpenseType;
 
 public class ExpenseTypeTable implements BaseColumns {
   public static final String TABLE_NAME = "expense_types";

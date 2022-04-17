@@ -1,8 +1,8 @@
-package ajitsingh.com.expensemanager.presenter;
+package opeomotayo.com.expensemanager.presenter;
 
-import ajitsingh.com.expensemanager.database.ExpenseDatabaseHelper;
-import ajitsingh.com.expensemanager.utils.ExpenseCollection;
-import ajitsingh.com.expensemanager.view.CurrentWeekExpenseView;
+import opeomotayo.com.expensemanager.database.ExpenseDatabaseHelper;
+import opeomotayo.com.expensemanager.utils.ExpenseCollection;
+import opeomotayo.com.expensemanager.view.CurrentWeekExpenseView;
 
 public class CurrentWeekExpensePresenter {
 

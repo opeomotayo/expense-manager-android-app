@@ -1,11 +1,11 @@
-package ajitsingh.com.expensemanager.adapter;
+package opeomotayo.com.expensemanager.adapter;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;
 
 import java.util.List;
 
-import ajitsingh.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.model.Expense;
 
 public class TodaysExpenseListViewAdapter extends ArrayAdapter{
   private final List<Expense> expenses;

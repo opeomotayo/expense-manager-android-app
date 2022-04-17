@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.adapter;
+package opeomotayo.com.expensemanager.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import ajitsingh.com.expensemanager.R;
+import opeomotayo.com.expensemanager.R;
 
 public class DrawerListViewAdapter extends BaseAdapter{
 

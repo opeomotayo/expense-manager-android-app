@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.view;
+package opeomotayo.com.expensemanager.view;
 
 import com.echo.holographlibrary.Bar;
 

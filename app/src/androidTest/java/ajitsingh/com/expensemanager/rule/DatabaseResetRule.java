@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.rule;
+package opeomotayo.com.expensemanager.rule;
 
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
@@ -6,9 +6,9 @@ import org.junit.runners.model.Statement;
 
 import java.util.List;
 
-import ajitsingh.com.expensemanager.database.ExpenseDatabaseHelper;
-import ajitsingh.com.expensemanager.model.ExpenseType;
-import ajitsingh.com.expensemanager.table.ExpenseTypeTable;
+import opeomotayo.com.expensemanager.database.ExpenseDatabaseHelper;
+import opeomotayo.com.expensemanager.model.ExpenseType;
+import opeomotayo.com.expensemanager.table.ExpenseTypeTable;
 
 import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
 

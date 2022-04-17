@@ -1,8 +1,8 @@
-package ajitsingh.com.expensemanager.presenter;
+package opeomotayo.com.expensemanager.presenter;
 
-import ajitsingh.com.expensemanager.activity.CurrentMonthExpenseFragment;
-import ajitsingh.com.expensemanager.activity.CurrentWeekExpenseFragment;
-import ajitsingh.com.expensemanager.view.NavigationDrawerItemView;
+import opeomotayo.com.expensemanager.activity.CurrentMonthExpenseFragment;
+import opeomotayo.com.expensemanager.activity.CurrentWeekExpenseFragment;
+import opeomotayo.com.expensemanager.view.NavigationDrawerItemView;
 
 public class NavigationDrawerPresenter {
 

@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.model;
+package opeomotayo.com.expensemanager.model;
 
 public class ExpenseType {
   private String type;

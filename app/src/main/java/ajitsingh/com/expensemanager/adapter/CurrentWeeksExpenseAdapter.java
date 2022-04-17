@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.adapter;
+package opeomotayo.com.expensemanager.adapter;
 
 import android.content.Context;
 import android.database.DataSetObserver;
@@ -11,11 +11,11 @@ import android.widget.TextView;
 import java.util.List;
 import java.util.Map;
 
-import ajitsingh.com.expensemanager.R;
-import ajitsingh.com.expensemanager.model.Expense;
-import ajitsingh.com.expensemanager.utils.ExpenseCollection;
+import opeomotayo.com.expensemanager.R;
+import opeomotayo.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.utils.ExpenseCollection;
 
-import static ajitsingh.com.expensemanager.utils.DateUtil.getDayName;
+import static opeomotayo.com.expensemanager.utils.DateUtil.getDayName;
 
 public class CurrentWeeksExpenseAdapter implements ExpandableListAdapter {
   private Context context;

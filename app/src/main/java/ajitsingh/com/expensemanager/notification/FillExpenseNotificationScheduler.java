@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.notification;
+package opeomotayo.com.expensemanager.notification;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;

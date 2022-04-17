@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.utils;
+package opeomotayo.com.expensemanager.utils;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.List;
 import java.util.Map;
 
-import ajitsingh.com.expensemanager.model.Expense;
+import opeomotayo.com.expensemanager.model.Expense;
 
 import static java.util.Arrays.asList;
 import static org.hamcrest.CoreMatchers.is;

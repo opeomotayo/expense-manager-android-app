@@ -1,4 +1,4 @@
-package ajitsingh.com.expensemanager.activity;
+package opeomotayo.com.expensemanager.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,10 +14,10 @@ import androidx.fragment.app.Fragment;
 
 import java.util.List;
 
-import ajitsingh.com.expensemanager.R;
-import ajitsingh.com.expensemanager.database.ExpenseDatabaseHelper;
-import ajitsingh.com.expensemanager.presenter.ExpensePresenter;
-import ajitsingh.com.expensemanager.view.ExpenseView;
+import opeomotayo.com.expensemanager.R;
+import opeomotayo.com.expensemanager.database.ExpenseDatabaseHelper;
+import opeomotayo.com.expensemanager.presenter.ExpensePresenter;
+import opeomotayo.com.expensemanager.view.ExpenseView;
 
 public class ExpenseFragment extends Fragment implements ExpenseView, View.OnClickListener {
 
