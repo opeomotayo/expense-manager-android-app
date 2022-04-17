@@ -30,7 +30,7 @@ jobs:
         run:  ./gradlew lint #./gradlew lintDebug --stacktrace
         continue-on-error: true
 
-      - name: Upload html test report
+      - name: Upload lint test report
         uses: actions/upload-artifact@v3
         with:
           name: lint.html
@@ -46,14 +46,31 @@ jobs:
       - name: Run tests
         run: ./gradlew test #bash ./gradlew test --stacktrace 
 
-      - name: Upload test report
+      - name: Upload unit test report
         uses: actions/upload-artifact@v3
         with:
           name: unit_test_report
           path: app/build/reports/tests/testDebugUnitTest/
 
-      - name: Debug
-        run: ls -la app/build/reports/tests/testDebugUnitTest/
+  instrumentation-test:
+    needs: [unit-test]
+    runs-on: macos-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v3
+
+      - name: Run espresso tests
+        uses: reactivecircus/android-emulator-runner@v3
+        with:
+          api-level: 29
+          script: ./gradlew connectedCheck
+
+      - name: Upload test report
+        uses: actions/upload-artifact@v3
+        with:
+          name: instrumentation_test_report
+          path: app/build/reports/androidTests/connected/
+
         
 
 
