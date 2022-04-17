@@ -31,16 +31,29 @@ jobs:
         continue-on-error: true
 
       - name: Upload html test report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: lint.html
-          path: app/build/reports/*.html
+          path: app/build/reports/lint-results.html #*.html
 
-      - name: Debug1
-        run:  ls -la app/build/reports/
+  unit-test:
+    needs: [lint]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v3
 
-      - name: Debug2
-        run:  cat app/build/reports/lint-results.html
+      - name: Run tests
+        run: ./gradlew test #bash ./gradlew test --stacktrace 
 
-      - name: Debug3
-        run:  cat app/build/reports/lint-results.xml
+      - name: Upload test report
+        uses: actions/upload-artifact@v3
+        with:
+          name: unit_test_report
+          path: app/build/reports/tests/unit-test-results/
+
+      - name: Debug
+        run: ls -la app/build/reports/tests/unit-test-results/
+        
+
+
