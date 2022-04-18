@@ -109,7 +109,7 @@ jobs:
 
   deploy-to-appcenter:
     needs: [package]
-    name: distribute For Alpha Testing
+    name: deploy-to-appcenter
     runs-on: ubuntu-latest
     steps:
       - name: Download latest artifact
@@ -130,6 +130,7 @@ jobs:
 
   deploy-to-nexus:
     needs: [package]
+    name: deploy-to-nexus
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
@@ -139,7 +140,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-          
+
       - name: Build with Maven
         run: Build with Maven
       #   run: mvn package --file pom.xml #mvn -B package --file pom.xml  
