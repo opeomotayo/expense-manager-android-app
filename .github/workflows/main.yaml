@@ -84,7 +84,7 @@ jobs:
 
   package:
     needs: [static-code-analysis]
-    name: package-apk-file
+    # name: package-apk-file
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
@@ -110,7 +110,7 @@ jobs:
 
   deploy-to-appcenter:
     needs: [package]
-    name: deploy-to-appcenter
+    # name: deploy-to-appcenter
     runs-on: ubuntu-latest
     steps:
       - name: Download latest artifact
@@ -132,7 +132,7 @@ jobs:
 
   deploy-to-nexus:
     needs: [package]
-    name: deploy-to-nexus
+    # name: deploy-to-nexus
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
