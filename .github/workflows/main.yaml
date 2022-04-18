@@ -80,6 +80,7 @@ jobs:
         run: ./gradlew app:sonarqube -Dsonar.login=${{ secrets.SONAR_TOKEN }} -Pandroid.debug.obsoleteApi=true --stacktrace --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
         
 
 
