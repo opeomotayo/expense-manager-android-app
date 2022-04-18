@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  lint test:
+  "lint test":
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
@@ -28,7 +28,7 @@ jobs:
       #     path: app/build/reports/lint-results.html #*.html /lint-results-debug.html
 
   unit-test:
-    needs: [lint test]
+    needs: ["lint test"]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
