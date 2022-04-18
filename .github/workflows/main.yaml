@@ -145,7 +145,7 @@ jobs:
           java-version: 1.8
 
       - name: Build with Maven
-        run: Build with Maven
+        run: echo Build with Maven
       #   run: mvn package --file pom.xml #mvn -B package --file pom.xml  
       # - name: Nexus Repo Publish
       #   uses: sonatype-nexus-community/nexus-repo-github-action@master
