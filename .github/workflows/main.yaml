@@ -77,7 +77,8 @@ jobs:
           java-version: 11
 
       - name: SonarCloud Scan
-        run: ./gradlew app:sonarqube -Dsonar.login=${{ secrets.SONAR_TOKEN }} #-Pandroid.debug.obsoleteApi=true --stacktrace --debug
+        run: ./gradlew sync -Pandroid.debug.obsoleteApi=true
+        # run: ./gradlew app:sonarqube -Dsonar.login=${{ secrets.SONAR_TOKEN }} #-Pandroid.debug.obsoleteApi=true --stacktrace --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
@@ -119,7 +120,7 @@ jobs:
           name: expense-manager.apk
 
       - name: Upload to app center
-        run: echo  Upload to app center
+        run: echo Upload to app center
         continue-on-error: true
         # uses: wzieba/AppCenter-Github-Action@v1
         # with:
