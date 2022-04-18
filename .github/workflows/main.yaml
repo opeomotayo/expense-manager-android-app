@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run lint
-        run:  Run lint
+        run:  echo Run lint
       #   run:  ./gradlew lint #./gradlew lintDebug --stacktrace
       #   continue-on-error: true
 
@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run tests
-        echo: Run tests
+        run: echo Run tests
       #   run: ./gradlew test #bash ./gradlew test --stacktrace 
 
       # - name: Upload test report
@@ -52,7 +52,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run espresso tests
-        run: Run espresso tests
+        run: echo Run espresso tests
       #   uses: reactivecircus/android-emulator-runner@v2
       #   with:
       #     api-level: 29
